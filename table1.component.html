@@ -1,0 +1,88 @@
+<div class="shadow" style="background-color: white;">
+  <div style="padding-top:10px;">
+    <ul class="table-list d-flex justify-content-around" >
+      <li><h5>Transaction</h5></li>
+      <li><h5>All</h5></li>
+      <li><h5>Deposits</h5></li>
+      <li><h5>Withdrawals</h5></li>
+      <li>
+        <div class="search" >
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <div class="form-group">
+            <input type="text"
+              class="form-control" name="" id="" aria-describedby="helpId" placeholder="Search...">
+          </div>
+        </div>
+      </li>
+      <li>
+        <h5>Showing</h5>
+      </li>
+      <li>
+        <div class="btn-group">
+          <button type="button" class="btn btn">5</button>
+          <button type="button" class="btn btn dropdown-toggle dropdown-toggle-split " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+      </div>
+      </li>
+      
+      <li>
+        <i class="fa fa-ellipsis-v"></i>
+      </li>
+    </ul>
+  </div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th  scope="col">Date <i class="fa fa-sort-amount-down"></i></th>
+            <th scope="col">TRANSACTION DETAIL <i class="fa fa-sort-amount-down"></i></th>
+            <th class="text-center" scope="col">WITHDRAWALS <i class="fa fa-sort-amount-down"></i></th>
+            <th class="text-center" scope="col">DEPOSITE <i class="fa fa-sort-amount-down"></i></th>
+            <th class="text-center" scope="col">RUNNING BALANCE <i class="fa fa-sort-amount-down"></i></th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of transaction">
+            <th scope="row">{{item.date}}</th>
+            <td>{{item.tdetails}}</td>
+            <td class="text-center">{{item.withdrawal}}.000</td>
+            <td class="text-center">@{{item.deposite}}.000</td>
+            <td class="text-center">@{{item.rbal}}.000</td>
+            <td class="text-center"><i class="fa fa-ellipsis-v"></i></td>
+          </tr>
+          <!-- <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>@mdo</td>
+            <td><i class="fa fa-ellipsis-v"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            <td>@mdo</td>
+            <td><i class="fa fa-ellipsis-v"></i></td>
+          </tr> -->
+        </tbody>
+      </table>
+      <div class="numbers d-flex justify-content-end">
+        <i class="fas fa-chevron-left"></i>
+        <input type="button" class="btn btn-outline-primary" value="1">
+        <input type="button" class="btn btn-outline-primary" value="2">
+        <input type="button" class="btn btn-outline-primary" value="3">
+        <input type="button" class="btn btn-outline-primary" value="4">
+        <input type="button" class="btn btn-outline-primary" value="5">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+</div>

@@ -1,0 +1,23 @@
+ .sub-menu{
+   /* margin: 10px;
+   flex-wrap: wrap; */
+}
+li{
+    /* margin-left: 30px;
+    padding-top: 10px;
+    margin-right: 1rem; */
+    list-style-type: none;
+}
+
+.sub-menu .fa{
+    padding: 5px;
+    padding-right: 15px;
+}
+li:hover{
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
+    cursor: pointer;
+} 
+/* .bar{
+    display: flex;height: 50px;background-color: white;
+} */

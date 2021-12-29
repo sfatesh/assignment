@@ -1,0 +1,42 @@
+.bg-logo{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-left:30px ;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  input{
+      border: 0px;
+  }
+  .search{
+    margin-top:10px ;
+    display: flex;
+    height: 30px;
+    width: 490px;
+  }
+  .search-input{
+    display: flex;background-color: transparent;width: 100%;max-width: 100%;
+  }
+  .fa-search{
+    padding: 10px;
+    background-color: white;
+  }
+  .subcribe{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  .profile img{
+    padding: 5px;
+  }
+  .profile h5{
+    padding: 10px;
+    color: white;
+  } 

@@ -1,0 +1,40 @@
+.cash-summary{
+    padding: 30px;margin-left: 50px;flex-wrap: wrap;
+}
+
+.line{
+    border-bottom: 3px solid orange;
+}
+.summary-drop div{
+    margin: 10px;
+    height: 50px;
+    
+}
+.summary-drop div .fa{
+    padding: 20px;
+    font-size: 20px;
+ }
+ /*
+.summary-drop{
+    
+    margin-left: 40rem;
+    justify-content: end;
+}*/
+.summary-drop1{
+    padding-bottom: 10px;
+    margin-top: 300px;
+}
+.summary-drop2{
+    padding-bottom: 10px;
+   
+} 
+.cash-summary2{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

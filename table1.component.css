@@ -1,0 +1,26 @@
+ li{
+    /* margin-left: 40px;
+    margin-right: 20px; */
+    list-style-type: none;
+} 
+input{
+    border: 0px;
+   
+}
+.fa-search{
+    padding: 10px;
+}
+.fas{
+    font-size: 20px;
+    padding-top: 10px;
+}
+/* 
+.numbers{
+    margin-left: 62rem;justify-content: end;padding: 10px;
+}
+.table-list{
+    display: flex;margin-top: 20px;
+}*/
+.search{
+    display: flex;background-color: white;border-bottom: 2px solid black;
+} 
