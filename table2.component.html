@@ -1,0 +1,57 @@
+<div class="shadow d-flex justify-content-around main-table" >
+    <table class="table ">
+        <thead class="thead-light bg-light">
+          <tr>
+            <th scope="col">Select</th>
+            <th scope="col">DATE OF BILL</th>
+            <th scope="col">BILL NUMBER</th>
+            <th scope="col">DUE DATE</th>
+            <th scope="col">BILL AMOUNT</th>
+            <th scope="col">AMOUNT DUE</th>
+            <th scope="col">ADJUSTMENT</th>
+            <th scope="col">WITHHOLD</th>
+            <th scope="col">BALANCE</th>
+            <th scope="col">AMOUNT PAID</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of Bill">
+            <th scope="row"><input type="checkbox" name="" id=""></th>
+            <td class="text-center">{{item.dob}}</td>
+            <td class="text-center">{{item.bnumber}}</td>
+            <td class="text-center">{{item.ddate}}</td>
+            <td class="text-center">{{item.bamount}}</td>
+            <td class="text-center">{{item.amountd}}</td>
+            <td class="text-center">{{item.adjust}}</td>
+            <td class="text-center">{{item.withhold}}</td>
+            <td class="text-center">{{item.bal}}</td>
+            <td class="text-center"><input type="text" value="{{item.amountp}}"></td>
+            
+          </tr>
+          <!-- <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>@fat</td>
+            <td>@fat</td>
+            <td>@fat</td>
+            <td>@fat</td>
+            <td>@fat</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+          </tr> -->
+        </tbody>
+      </table>
+</div>
